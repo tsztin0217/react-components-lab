@@ -40,9 +40,7 @@ const weatherForecasts = [
   },
 ];
 
-
 const App = () => {
-
   return (
     <>
       <h1>Local Weather</h1>
@@ -50,11 +48,9 @@ const App = () => {
         {weatherForecasts.map((forecast, index) => (
           <WeatherForecast key={index} forecast={forecast} />
         ))}
-
       </section>
     </>
-
   );
 }
 
-export default App
+export default App;
